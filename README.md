@@ -61,6 +61,8 @@ Supplier  | admin.suppliers            |        AdminController@supplier        
 &nbsp;   | inventory.orders  |  OrderController@index  | /listorders  -> OrderController@index
 
 ## Sequence Diagram
+![sequence diagram](https://user-images.githubusercontent.com/76025064/151017581-9e271f85-6b73-40aa-9994-deb5faf57995.png)
+
 
 ## How to setup the Project
 - Go to the project folder. (tips: use Visual Studio Code or Notepad++)
