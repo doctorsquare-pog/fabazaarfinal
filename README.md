@@ -61,7 +61,7 @@ Supplier  | admin.suppliers            |        AdminController@supplier        
 &nbsp;   | inventory.orders  |  OrderController@index  | /listorders  -> OrderController@index
 
 ## Sequence Diagram
-![sequence diagram](https://user-images.githubusercontent.com/76025064/151017581-9e271f85-6b73-40aa-9994-deb5faf57995.png)
+![sequence diagram](https://user-images.githubusercontent.com/76025064/151092584-9f4c13f4-4f55-494a-b642-e91c7f2b7987.png)
 
 
 ## How to setup the Project
@@ -71,6 +71,7 @@ Supplier  | admin.suppliers            |        AdminController@supplier        
 - Start XAMPP, then in your browser, go to https://localhost/phpmyadmin/ and create new database called `fabazaar`.
 - Then, in cmd, type `php artisan migrate` and then `php artisan db:seed`.
 - Finally, do `php artisan serve` and connect to: https://127.0.0.1:8000
+
 
 ## References
 https://shopee.com.my/
