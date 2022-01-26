@@ -67,10 +67,10 @@ Supplier  | admin.suppliers            |        AdminController@supplier        
 ## How to setup the Project
 - Go to the project folder. (tips: use Visual Studio Code or Notepad++)
 - Go to command prompt/terminal and type: composer install and composer dump-autoload.
-- Duplicate .env.example, rename it to .env, then php artisan key:generate
+- Duplicate '.env.example', rename it to '.env', then 'php artisan key:generate'
 - Start XAMPP, then in your browser, go to https://localhost/phpmyadmin/ and create new database called 'fabazaar'.
-- Then, in cmd, type php artisan migrate and then php artisan db:seed.
-- Finally, do php artisan serve and connect to: https://127.0.0.1:8000
+- Then, in cmd, type 'php artisan migrate' and then 'php artisan db:seed'.
+- Finally, do 'php artisan serve' and connect to: https://127.0.0.1:8000
 
 ## References
 https://shopee.com.my/
